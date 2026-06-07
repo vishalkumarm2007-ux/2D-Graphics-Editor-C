@@ -18,34 +18,21 @@ void initializeCanvas() {
         }
     }
 }
-
-/* Display Canvas */
 void displayCanvas() {
-
     int i, j;
-
     printf("\nCURRENT CANVAS:\n\n");
-
     for(i = 0; i < ROWS; i++) {
-
         for(j = 0; j < COLS; j++) {
-
             printf("%c ", canvas[i][j]);
         }
-
         printf("\n");
     }
 }
 
-/* Draw Rectangle */
 void drawRectangle(int row, int col, int height, int width) {
-
     int i, j;
-
     for(i = row; i < row + height; i++) {
-
         for(j = col; j < col + width; j++) {
-
             if(i >= 0 && i < ROWS && j >= 0 && j < COLS) {
 
                 canvas[i][j] = '*';
