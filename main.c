@@ -1,4 +1,3 @@
-```c
 #include<stdio.h>
 #include<math.h>
 
@@ -243,4 +242,3 @@ printf("Invalid Choice!\n");
 
 return 0;
 }
-```
