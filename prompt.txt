@@ -1,0 +1,62 @@
+2D Graphics Editor in C
+
+Problem Statement:
+Design and implement a menu-driven 2D Graphics Editor in C using a 2D character array as the drawing canvas. The canvas should initially be filled with the character '_' (underscore), and graphical objects should be drawn using the character '*' (asterisk).
+
+Requirements:
+
+1. Use a 2D character array to store the picture.
+2. Display the picture on the screen.
+3. Draw graphical objects:
+
+   * Rectangle
+   * Line
+   * Triangle
+   * Circle
+4. Add objects to the picture.
+5. Delete objects from the picture.
+6. Modify objects in the picture.
+7. Provide a menu-driven interface for user interaction.
+
+Features Implemented:
+
+* Canvas Initialization
+* Canvas Display
+* Rectangle Drawing
+* Horizontal and Vertical Line Drawing
+* Triangle Drawing
+* Circle Drawing
+* Delete Area Function
+* Clear Canvas Function
+* Menu-Driven Operations
+
+Menu Options:
+
+1. Display Canvas
+2. Draw Rectangle
+3. Draw Line
+4. Draw Triangle
+5. Draw Circle
+6. Delete Area
+7. Clear Canvas
+8. Exit
+
+Characters Used:
+
+* '_' for empty canvas cells
+* '*' for graphical objects
+
+Programming Language:
+C
+
+Data Structure Used:
+2D Character Array
+
+Concepts Used:
+
+* Functions
+* Arrays
+* Loops
+* Conditional Statements
+* Switch Case
+* Menu Driven Programming
